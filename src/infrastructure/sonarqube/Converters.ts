@@ -129,7 +129,7 @@ export class Converters {
   }
 
   private static numberValue(measureMap, key): number {
-    return Number(measureMap.get(key)) || 0;
+    return parseFloat((Number(measureMap.get(key)) || 0.0).toFixed(2));
   }
 
   private static stringValue(measureMap, key): string {

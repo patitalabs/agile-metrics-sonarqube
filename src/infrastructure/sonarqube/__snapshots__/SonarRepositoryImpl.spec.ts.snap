@@ -142,7 +142,7 @@ Array [
     "nclocLanguageDistribution": "java=4535",
     "newBugs": 0,
     "newCodeSmells": 2,
-    "newCoverage": 93.5483870967742,
+    "newCoverage": 93.55,
     "newDuplicatedLinesDensity": 0,
     "newLines": 64,
     "newLinesToCover": 19,
